@@ -96,4 +96,4 @@ if __name__ == '__main__':
 	with wid.canvas:
 		GlowingLine(glowBrightness=75,points=[300,560, 200, 400], color=[1., 1, 0], mode="rgb", width=10);
 	
-	runTouchApp(sc)
+	runTouchApp(wid)
